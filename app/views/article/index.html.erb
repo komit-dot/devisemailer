@@ -1,0 +1,6 @@
+<h1> This is the list of Article</h1>
+<% @articles.each do |article| %>
+  <b>Name:</b> <%= article.name %> <br>
+  <b>Description:</b><%= article.description%><br>
+  <b>Date of publish of the article:</b><%=article.publish_date%> <br>
+<% end %>
